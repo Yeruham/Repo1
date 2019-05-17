@@ -1,5 +1,14 @@
-zdfx
-afd
-sdf
-sdf
-sdf
+
+import sys
+
+params = sys.argv
+build_num = sys.argv[1]
+
+
+#while (build_num % 3) != 0:
+#  build_num =
+echo "$JOB_NAME"
+
+
+
+
