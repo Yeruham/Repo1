@@ -6,7 +6,7 @@ build_num = sys.argv[1]
 build_name = sys.argv[2]
 
 if (build_num % 3 != 0):
-  exit 2  
+  sys.exit(2)
 
 print build_name
 
