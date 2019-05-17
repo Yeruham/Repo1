@@ -5,7 +5,7 @@ params = sys.argv
 build_num = sys.argv[1]
 build_name = sys.argv[2]
 
-if (build_num % 3 != 0):
+if (int(build_num) % 3 != 0):
   sys.exit(2)
 
 print(build_name)
